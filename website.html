@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <center>
+    <link rel="stylesheet" type="text/css" href="chuii.css">
+    <title>Contact Us</title>
+    <hr>
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <style>
+      body {
+        background-color: skyblue;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        color: light blue
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      p {
+        color: #555;
+      }
+
+      form {
+        max-width: 400px;
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        background-color: #224e99;
+        color: white;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #224ca6;
+      }
+    </style>
+</head>
+
+<body>
+  <h1>Contact Us</h1>
+  <hr>
+  <p>Feel free to reach out to us for any inquiries, feedback, or collaboration opportunities.
+    <br>We value your input and look forward to hearing from you.
+  </p>
+</body>
+</center>
+<center>
+  <form action="/submit" method="post">
+    <label for="first name">First Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="second name">Second Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</center>
+<p>If you prefer, you can also use the contact information below:</p>
+
+<p><strong>Email:</strong> <a href="mailto:angelanickson03@gmail.com">angelanickson03@gmail.com</a></p>
+<p><strong>Phone:</strong> +255 67388 2243</p>
+
+<p><strong>Office Address:</strong><br>
+  123 Main Street<br>
+  Cityville, State 12345<br>
+  Valley view
+</p>
+
+<p>Connect with us on social media for updates and news:</p>
+<ul class="social_icon">
+  <li><a href="https://www.facebook.com/example">Facebook</a></li>
+  <li><a href="https://twitter.com/example">Twitter</a></li>
+  <li><a href="https://www.instagram.com/example">Instagram</a></li>
+  <i class="fab fa-facebook-f"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-telegram"></i>
+</ul>
+
+</body>
+
+</html>
