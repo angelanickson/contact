@@ -4,104 +4,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <center>
-    <link rel="stylesheet" type="text/css" href="chuii.css">
-    <title>Contact Us</title>
-    <hr>
-    <link rel="stylesheet" type="text/css" href="web.css">
-    <style>
-      body {
-        background-color: skyblue;
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        color: light blue
-      }
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      h1 {
-        color: #333;
-      }
-
-      p {
-        color: #555;
-      }
-
-      form {
-        max-width: 400px;
-        margin-top: 20px;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 8px;
-        color: #333;
-      }
-
-      input,
-      textarea {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 16px;
-        box-sizing: border-box;
-      }
-
-      input[type="submit"] {
-        background-color: #224e99;
-        color: white;
-        cursor: pointer;
-      }
-
-      input[type="submit"]:hover {
-        background-color: #224ca6;
-      }
-    </style>
 </head>
 
 <body>
-  <h1>Contact Us</h1>
-  <hr>
-  <p>Feel free to reach out to us for any inquiries, feedback, or collaboration opportunities.
-    <br>We value your input and look forward to hearing from you.
-  </p>
+  <div class="menu_bar">
+    <div class="logo"><i class="fa fa-users" aria-hidden="true"></i><h2>GroupTwo</h2></div>
+    <div class="menu_tabe">
+        <ul>
+            <li><a href="#" style="color: green;">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+  <div class="container_content">
+    <h1 class="contact_head">Contact Us</h1>
+    <hr>
+    <p>Feel free to reach out to us for any inquiries, feedback, or collaboration opportunities.
+      <br>We value your input and look forward to hearing from you.
+    </p>
+    <form action="" method="post">
+
+      <label for="first name">First Name:</label>
+      <input type="text" id="name" name="name" required class="newinput">
+
+      <label for="second name">Second Name:</label>
+      <input type="text" id="name" name="name" required class="newinput">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required class="newinput">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <div class="signup_button"><input type="submit"></div>
+    </form>
+  <p>If you prefer, you can also use the contact information below:</p>
+
+  <ul>
+    <li><p><strong>Email:</strong> <a href="mailto:angelanickson03@gmail.com">angelanickson03@gmail.com</a></p> </li>
+    <li><p><strong>Phone:</strong> +255 67388 2243</p></li>
+    <li><p><strong>Office Address:</strong></p></li>
+    <li><p>123 Main Stree</p></li>
+    <li><p> Cityville, State 12345</p></li>
+    <li><p> Valley view</p></li>
+  </ul>
+
+  
+
+  <p>Connect with us on social media for updates and news:</p>
+      <div class="share_this">
+        
+        <div class="social_media">
+            <div class="fb">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <p>Facebook</p>
+            </div>
+
+            <div class="twiter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <p>Twiter</p>
+            </div>
+
+            <div class="pin">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                <p>Pintrest</p>
+            </div>
+
+            <div class="linkd">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <p>Linkedln</p>
+            </div>
+
+        </div>
+      </div>
+</div>
+</div>
+
 </body>
-</center>
-<center>
-  <form action="/submit" method="post">
-    <label for="first name">First Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="second name">Second Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</center>
-<p>If you prefer, you can also use the contact information below:</p>
-
-<p><strong>Email:</strong> <a href="mailto:angelanickson03@gmail.com">angelanickson03@gmail.com</a></p>
-<p><strong>Phone:</strong> +255 67388 2243</p>
-
-<p><strong>Office Address:</strong><br>
-  123 Main Street<br>
-  Cityville, State 12345<br>
-  Valley view
-</p>
-
-<p>Connect with us on social media for updates and news:</p>
-<ul class="social_icon">
-  <li><a href="https://www.facebook.com/example">Facebook</a></li>
-  <li><a href="https://twitter.com/example">Twitter</a></li>
-  <li><a href="https://www.instagram.com/example">Instagram</a></li>
-  <i class="fab fa-facebook-f"></i>
-  <i class="fab fa-instagram"></i>
-  <i class="fab fa-telegram"></i>
-</ul>
-
-</body>
-
 </html>
